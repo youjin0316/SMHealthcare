@@ -33,7 +33,7 @@ int main() {
     do {
     
     	
-    	if (0){
+    	if (remaining_calories==0&&health_data.diet_count>0){
             printf("You have consumed all your calories for today! \n");
 		} 
 		else{
