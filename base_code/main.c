@@ -59,7 +59,7 @@ int main() {
                 break;
                 
             case 3:
-            	
+            	printHealthData(&health_data);
                 break;
                 
             case 4:
