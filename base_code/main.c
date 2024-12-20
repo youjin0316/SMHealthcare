@@ -71,6 +71,7 @@ int main() {
                 printf("[Error] Invalid option. \n");
                 printf("Please try again! \n");
         }
+        saveData(HEALTHFILEPATH,&health_data);
     } while (choice!=4||remaining_calories!=0);
 
     return 0;
